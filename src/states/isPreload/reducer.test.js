@@ -7,7 +7,7 @@ describe('isPreloadReducer function', () => {
     const initialState = true
     const action = { type: 'UNKNOWN' }
     const nextState = isPreloadReducer(initialState, action)
-    expect(nextState).toEqual(!initialState) // INTENTIONAL ERROR FOR SCREENSHOT
+    expect(nextState).toEqual(initialState)
   })
 
   it('should return the boolean value when given by SET_IS_PRELOAD action', () => {
