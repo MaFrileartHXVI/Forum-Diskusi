@@ -4,7 +4,7 @@ module.exports = {
     es2021: true,
     node: true
   },
-  extends: ['standard', 'plugin:react/recommended', 'plugin:react-hooks/recommended', 'plugin:react/jsx-runtime', 'plugin:storybook/recommended'],
+  extends: ['standard', 'plugin:react/recommended', 'plugin:react-hooks/recommended', 'plugin:react/jsx-runtime'],
   parserOptions: {
     ecmaFeatures: {
       jsx: true
